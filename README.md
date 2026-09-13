@@ -1,23 +1,42 @@
+![Michael Colby — Electrical Engineering](assets/header.svg)
+
 # Michael Colby
 
-Electrical engineering student at Stony Brook University, B.E. expected May 2028.
-Interested in digital design, transistor-level circuits, memory, and embedded hardware.
+**Electrical Engineering · Stony Brook University · B.E. expected May 2028**  
+GPA: **3.92 / 4.00**
 
-## Project portfolio
+I’m interested in digital hardware, CMOS circuits, memory, and embedded systems.
+This portfolio connects inspectable source code with repeatable verification,
+documented engineering choices, and measured simulation results.
 
-Explore the source, run the verification, and inspect the measured simulation results
-in these reproducible engineering studies.
+## Selected projects
 
-- [8-bit CMOS ALU](https://github.com/michaelcolby-git/cmos-8bit-alu): CMOS gates, arithmetic, functional verification, and timing/power methodology.
-- [6T SRAM cell and array](https://github.com/michaelcolby-git/sram-6t-array): storage, read disturb, write behavior, and array control.
-- [Five-stage 32-bit processor](https://github.com/michaelcolby-git/risc32-pipeline): forwarding, load-use hazards, branch flushing, and architectural checks.
+| Project | Engineering focus | Verification |
+|---|---|---|
+| [32-bit Pipelined RISC Processor](https://github.com/michaelcolby-git/risc32-pipeline) | Five-stage datapath, forwarding, hazards, and branch control | 26 scenarios; 3,000 randomized instructions |
+| [CMOS 8-bit ALU](https://github.com/michaelcolby-git/cmos-8bit-alu) | Transistor gates, ripple carry, and timing/power characterization | 524,288 RTL vectors; 192 CMOS vectors |
+| [6T SRAM Cell & Array](https://github.com/michaelcolby-git/sram-6t-array) | Differential bitlines, wordline control, read/write/hold operation | 128 state checks; 32 read-differential checks |
 
-## Background
+Each repository includes its design, executable checks, measured results, and
+implementation provenance.
 
-My experience includes rocket-avionics sensor interfaces and firmware with SEDS,
-and rover sensor-interface and power-distribution boards with Space Bulls at Buffalo.
+## Hardware experience
 
-Tools and languages from my coursework and projects include Verilog, C/C++, Python,
-Cadence Virtuoso, SPICE, ModelSim, Altium, and KiCad.
+**SEDS Rocket Avionics · University at Buffalo**  
+Sensor-interface circuitry, microcontroller firmware, telemetry, circuit simulation,
+and integrated hardware debugging.
 
-[LinkedIn](https://www.linkedin.com/in/michael-colby-662185347/)
+**Space Bulls Rover · University at Buffalo**  
+Sensor-interface and power-distribution PCBs, regulation and signal-conditioning
+simulation, board bring-up, and subsystem validation.
+
+## Technical background
+
+| Area | Tools & languages |
+|---|---|
+| Digital design & verification | Verilog, ModelSim, digital logic, pipelining |
+| Circuits & EDA | Cadence Virtuoso, SPICE, LTspice, ngspice, Altium, KiCad |
+| Software & analysis | C, C++, Python, MATLAB, Git |
+| Laboratory | Oscilloscopes, function generators, logic analyzers, microcontrollers |
+
+[LinkedIn](https://www.linkedin.com/in/michael-colby-662185347/) · [Email](mailto:michael.colby@stonybrook.edu)
