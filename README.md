@@ -1,16 +1,23 @@
-## Hi there 👋
+# Michael Colby
 
-<!--
-**michaelcolby-git/michaelcolby-git** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Electrical engineering student at Stony Brook University, B.E. expected May 2028.
+Interested in digital design, transistor-level circuits, memory, and embedded hardware.
 
-Here are some ideas to get you started:
+## Project portfolio
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Explore the source, run the verification, and inspect the measured simulation results
+in these reproducible engineering studies.
+
+- [8-bit CMOS ALU](https://github.com/michaelcolby-git/cmos-8bit-alu): CMOS gates, arithmetic, functional verification, and timing/power methodology.
+- [6T SRAM cell and array](https://github.com/michaelcolby-git/sram-6t-array): storage, read disturb, write behavior, and array control.
+- [Five-stage 32-bit processor](https://github.com/michaelcolby-git/risc32-pipeline): forwarding, load-use hazards, branch flushing, and architectural checks.
+
+## Background
+
+My experience includes rocket-avionics sensor interfaces and firmware with SEDS,
+and rover sensor-interface and power-distribution boards with Space Bulls at Buffalo.
+
+Tools and languages from my coursework and projects include Verilog, C/C++, Python,
+Cadence Virtuoso, SPICE, ModelSim, Altium, and KiCad.
+
+[LinkedIn](https://www.linkedin.com/in/michael-colby-662185347/)
